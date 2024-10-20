@@ -1,0 +1,12 @@
+# Exclude the database file
+db.sqlite3
+
+# Exclude Python cache files
+*.pyc
+__pycache__/
+
+# Exclude logs and other unnecessary files
+*.log
+.git/
+.env
+README.md

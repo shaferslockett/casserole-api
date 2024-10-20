@@ -1,0 +1,385 @@
+[
+    {
+        "model": "api.casserole",
+        "pk": 1,
+        "fields": {
+            "name": "classic-chicken-and-rice-casserole",
+            "ingredients": {
+                "chicken_breasts": "2 cups, cooked and shredded",
+                "rice": "1.5 cups, uncooked",
+                "cream_of_mushroom_soup": "1 can (10.5 oz)",
+                "water": "2 cups",
+                "frozen_peas": "1 cup",
+                "cheddar_cheese": "1 cup, shredded",
+                "salt": "1 tsp",
+                "black_pepper": "0.5 tsp",
+                "butter": "2 tbsp"
+            },
+            "instructions": {
+                "step_1": "Preheat your oven to 350°F (175°C).",
+                "step_2": "In a large mixing bowl, combine the uncooked rice, cream of mushroom soup, water, salt, and black pepper.",
+                "step_3": "Add the cooked shredded chicken and frozen peas to the mixture. Stir until well combined.",
+                "step_4": "Pour the mixture into a greased 9x13-inch baking dish.",
+                "step_5": "Dot the top with butter and sprinkle shredded cheddar cheese evenly over the casserole.",
+                "step_6": "Cover the dish with aluminum foil and bake for 45 minutes.",
+                "step_7": "Remove the foil and bake for an additional 15 minutes, or until the cheese is bubbly and golden brown.",
+                "step_8": "Let the casserole rest for 5 minutes before serving."
+            }
+        }
+    },
+    {
+        "model": "api.casserole",
+        "pk": 2,
+        "fields": {
+            "name": "vegetarian-broccoli-and-cheese-casserole",
+            "ingredients": {
+                "broccoli_florets": "4 cups, steamed",
+                "elbow_macaroni": "2 cups, cooked",
+                "cream_of_cheese_soup": "1 can (10.5 oz)",
+                "milk": "1 cup",
+                "cheddar_cheese": "1.5 cups, shredded",
+                "salt": "1 tsp",
+                "garlic_powder": "0.5 tsp",
+                "breadcrumbs": "1 cup",
+                "butter": "2 tbsp, melted"
+            },
+            "instructions": {
+                "step_1": "Preheat oven to 350°F (175°C).",
+                "step_2": "In a large bowl, mix together the cooked macaroni, steamed broccoli, cream of cheese soup, milk, half of the shredded cheddar cheese, salt, and garlic powder.",
+                "step_3": "Pour the mixture into a greased 9x13-inch baking dish.",
+                "step_4": "Sprinkle the remaining cheddar cheese over the top.",
+                "step_5": "In a separate bowl, combine the breadcrumbs and melted butter. Sprinkle this mixture evenly over the casserole.",
+                "step_6": "Bake for 30-35 minutes, or until the top is golden brown and the casserole is bubbly.",
+                "step_7": "Allow to cool for 5 minutes before serving."
+            }
+        }
+    },
+    {
+        "model": "api.casserole",
+        "pk": 3,
+        "fields": {
+            "name": "beef-and-potato-casserole",
+            "ingredients": {
+                "ground_beef": "1 lb",
+                "onion": "1 medium, diced",
+                "garlic_cloves": "2, minced",
+                "tomato_sauce": "2 cups",
+                "diced_tomatoes": "1 can (14.5 oz)",
+                "potatoes": "4 large, peeled and thinly sliced",
+                "cheddar_cheese": "2 cups, shredded",
+                "salt": "1 tsp",
+                "black_pepper": "0.5 tsp",
+                "paprika": "1 tsp",
+                "olive_oil": "2 tbsp"
+            },
+            "instructions": {
+                "step_1": "Preheat oven to 375°F (190°C).",
+                "step_2": "In a large skillet, cook ground beef over medium heat until browned. Drain excess fat.",
+                "step_3": "Add diced onions and minced garlic to the skillet. Sauté until onions are translucent.",
+                "step_4": "Stir in tomato sauce, diced tomatoes, salt, black pepper, and paprika. Let simmer for 15 minutes.",
+                "step_5": "In a greased 9x13-inch baking dish, layer half of the sliced potatoes.",
+                "step_6": "Spread the beef mixture evenly over the potatoes.",
+                "step_7": "Layer the remaining potatoes on top of the beef mixture.",
+                "step_8": "Sprinkle shredded cheddar cheese over the casserole.",
+                "step_9": "Cover the dish with aluminum foil and bake for 1 hour.",
+                "step_10": "Remove the foil, sprinkle with additional cheddar cheese if desired, and bake for another 15 minutes or until cheese is melted and bubbly.",
+                "step_11": "Allow to cool for 10 minutes before serving."
+            }
+        }
+    },
+    {
+        "model": "api.casserole",
+        "pk": 4,
+        "fields": {
+            "name": "tuna-noodle-casserole",
+            "ingredients": {
+                "egg_noodles": "3 cups, cooked and drained",
+                "canned_tuna": "2 cans (5 oz each), drained",
+                "cream_of_mushroom_soup": "1 can (10.5 oz)",
+                "frozen_peas": "1 cup",
+                "milk": "1/2 cup",
+                "cheddar_cheese": "1 cup, shredded",
+                "breadcrumbs": "1 cup",
+                "butter": "2 tbsp, melted",
+                "salt": "1/2 tsp",
+                "black_pepper": "1/4 tsp"
+            },
+            "instructions": {
+                "step_1": "Preheat oven to 350°F (175°C).",
+                "step_2": "In a large bowl, combine cooked egg noodles, drained tuna, cream of mushroom soup, milk, frozen peas, half of the shredded cheddar cheese, salt, and black pepper.",
+                "step_3": "Mix until all ingredients are well incorporated.",
+                "step_4": "Transfer the mixture to a greased 9x13-inch baking dish.",
+                "step_5": "Sprinkle shredded cheddar cheese and breadcrumbs evenly over the top.",
+                "step_6": "Bake for 25-30 minutes, or until the top is golden brown and the casserole is heated through.",
+                "step_7": "Let cool for 5 minutes before serving."
+            }
+        }
+    },
+    {
+        "model": "api.casserole",
+        "pk": 5,
+        "fields": {
+            "name": "green-bean-casserole",
+            "ingredients": {
+                "green_beans": "4 cups, fresh or frozen",
+                "cream_of_chicken_soup": "1 can (10.5 oz)",
+                "french_fried_onions": "1 1/3 cups",
+                "milk": "1/2 cup",
+                "soy_sauce": "1 tsp",
+                "black_pepper": "1/4 tsp",
+                "cheddar_cheese": "1 cup, shredded",
+                "garlic_powder": "1/2 tsp"
+            },
+            "instructions": {
+                "step_1": "Preheat oven to 350°F (175°C).",
+                "step_2": "In a large mixing bowl, combine green beans, cream of chicken soup, milk, soy sauce, black pepper, garlic powder, and half of the shredded cheddar cheese.",
+                "step_3": "Stir in 2/3 cup of french fried onions.",
+                "step_4": "Pour the mixture into a greased 9x13-inch baking dish.",
+                "step_5": "Sprinkle the remaining cheddar cheese over the top.",
+                "step_6": "In a separate bowl, combine the remaining french fried onions with a little melted butter if desired and sprinkle over the casserole.",
+                "step_7": "Bake for 25 minutes.",
+                "step_8": "Remove from oven and let cool for a few minutes before serving."
+            }
+        }
+    },
+    {
+        "model": "api.casserole",
+        "pk": 6,
+        "fields": {
+            "name": "lasagna-casserole",
+            "ingredients": {
+                "lasagna_noodles": "12 oz, cooked and drained",
+                "ground_beef": "1 lb",
+                "onion": "1 medium, diced",
+                "garlic_cloves": "3, minced",
+                "tomato_sauce": "4 cups",
+                "ricotta_cheese": "2 cups",
+                "mozzarella_cheese": "2 cups, shredded",
+                "parmesan_cheese": "1/2 cup, grated",
+                "egg": "1",
+                "dried_basil": "1 tsp",
+                "salt": "1 tsp",
+                "black_pepper": "1/2 tsp"
+            },
+            "instructions": {
+                "step_1": "Preheat oven to 375°F (190°C).",
+                "step_2": "In a large skillet, cook ground beef over medium heat until browned. Drain excess fat.",
+                "step_3": "Add diced onions and minced garlic to the skillet. Sauté until onions are translucent.",
+                "step_4": "Stir in tomato sauce, dried basil, salt, and black pepper. Let simmer for 15 minutes.",
+                "step_5": "In a separate bowl, combine ricotta cheese, egg, half of the shredded mozzarella, and half of the grated parmesan cheese.",
+                "step_6": "In a greased 9x13-inch baking dish, spread a thin layer of the meat sauce.",
+                "step_7": "Layer 4 cooked lasagna noodles over the sauce.",
+                "step_8": "Spread half of the ricotta cheese mixture over the noodles.",
+                "step_9": "Repeat the layers: meat sauce, noodles, ricotta mixture.",
+                "step_10": "Top the final layer of noodles with the remaining meat sauce.",
+                "step_11": "Sprinkle the remaining mozzarella and parmesan cheeses over the top.",
+                "step_12": "Cover the dish with aluminum foil and bake for 25 minutes.",
+                "step_13": "Remove the foil and bake for an additional 25 minutes, or until the cheese is bubbly and golden.",
+                "step_14": "Let the lasagna casserole rest for 10 minutes before serving."
+            }
+        }
+    },
+    {
+        "model": "api.casserole",
+        "pk": 7,
+        "fields": {
+            "name": "baked-ziti-casserole",
+            "ingredients": {
+                "ziti_pasta": "1 lb, cooked and drained",
+                "ricotta_cheese": "2 cups",
+                "mozzarella_cheese": "2 cups, shredded",
+                "parmesan_cheese": "1/2 cup, grated",
+                "egg": "1",
+                "marinara_sauce": "4 cups",
+                "ground_beef": "1 lb",
+                "onion": "1 medium, diced",
+                "garlic_cloves": "2, minced",
+                "dried_oregano": "1 tsp",
+                "salt": "1 tsp",
+                "black_pepper": "1/2 tsp",
+                "fresh_basil": "2 tbsp, chopped (optional)"
+            },
+            "instructions": {
+                "step_1": "Preheat oven to 350°F (175°C).",
+                "step_2": "In a large skillet, cook ground beef over medium heat until browned. Drain excess fat.",
+                "step_3": "Add diced onions and minced garlic to the skillet. Sauté until onions are translucent.",
+                "step_4": "Stir in marinara sauce, dried oregano, salt, and black pepper. Let simmer for 10 minutes.",
+                "step_5": "In a mixing bowl, combine ricotta cheese with half of the shredded mozzarella and half of the grated parmesan cheese.",
+                "step_6": "In a greased 9x13-inch baking dish, layer half of the cooked ziti pasta.",
+                "step_7": "Spread half of the ricotta cheese mixture over the pasta.",
+                "step_8": "Repeat the layers: meat sauce, ziti pasta, ricotta mixture.",
+                "step_9": "Top the casserole with the remaining mozzarella and parmesan cheeses.",
+                "step_10": "Cover with aluminum foil and bake for 20 minutes.",
+                "step_11": "Remove the foil and bake for an additional 15 minutes, or until the cheese is melted and bubbly.",
+                "step_12": "Let the baked ziti casserole cool for 5 minutes before serving."
+            }
+        }
+    },
+    {
+        "model": "api.casserole",
+        "pk": 8,
+        "fields": {
+            "name": "sausage-and-penne-casserole",
+            "ingredients": {
+                "penne_pasta": "1 lb, cooked and drained",
+                "italian_sausage": "1 lb, cooked and sliced",
+                "marinara_sauce": "3 cups",
+                "ricotta_cheese": "1.5 cups",
+                "mozzarella_cheese": "2 cups, shredded",
+                "parmesan_cheese": "1/2 cup, grated",
+                "spinach": "2 cups, fresh or frozen (if frozen, thaw and squeeze out excess moisture)",
+                "garlic_cloves": "2, minced",
+                "olive_oil": "2 tbsp",
+                "salt": "1 tsp",
+                "black_pepper": "1/2 tsp",
+                "red_pepper_flakes": "1/4 tsp (optional)"
+            },
+            "instructions": {
+                "step_1": "Preheat oven to 375°F (190°C).",
+                "step_2": "In a large skillet, heat olive oil over medium heat. Add minced garlic and sauté until fragrant.",
+                "step_3": "Add cooked Italian sausage slices to the skillet and cook for 2-3 minutes.",
+                "step_4": "Stir in marinara sauce, spinach, salt, black pepper, and red pepper flakes if using. Let simmer for 5 minutes.",
+                "step_5": "In a mixing bowl, combine ricotta cheese with half of the shredded mozzarella and half of the grated parmesan cheese.",
+                "step_6": "In a greased 9x13-inch baking dish, layer half of the cooked penne pasta.",
+                "step_7": "Spread half of the ricotta cheese mixture over the pasta.",
+                "step_8": "Pour half of the sausage and marinara mixture over the ricotta layer.",
+                "step_9": "Repeat the layers: penne pasta, ricotta mixture, sausage and marinara sauce.",
+                "step_10": "Top the casserole with the remaining mozzarella and parmesan cheeses.",
+                "step_11": "Cover with aluminum foil and bake for 25 minutes.",
+                "step_12": "Remove the foil and bake uncovered for an additional 15 minutes, or until the cheese is bubbly and golden.",
+                "step_13": "Let the sausage and penne casserole cool for 5 minutes before serving."
+            }
+        }
+    },
+    {
+        "model": "api.casserole",
+        "pk": 9,
+        "fields": {
+            "name": "sweet-potato-and-black-bean-casserole",
+            "ingredients": {
+                "sweet_potatoes": "4 large, peeled and cubed",
+                "black_beans": "2 cans (15 oz each), drained and rinsed",
+                "corn": "1 cup, frozen or canned",
+                "onion": "1 large, diced",
+                "bell_pepper": "1 large, diced",
+                "garlic_cloves": "3, minced",
+                "cumin": "1 tsp",
+                "chili_powder": "1 tsp",
+                "salt": "1 tsp",
+                "black_pepper": "0.5 tsp",
+                "tomato_sauce": "1 cup",
+                "cheddar_cheese": "1.5 cups, shredded",
+                "green_onions": "2 stalks, sliced (for garnish)",
+                "cilantro": "2 tbsp, chopped (optional)"
+            },
+            "instructions": {
+                "step_1": "Preheat oven to 375°F (190°C).",
+                "step_2": "In a large pot, boil sweet potato cubes until tender, about 15-20 minutes. Drain and set aside.",
+                "step_3": "In a large skillet, sauté diced onion and bell pepper over medium heat until softened, about 5 minutes.",
+                "step_4": "Add minced garlic, cumin, chili powder, salt, and black pepper to the skillet. Cook for another 1-2 minutes until fragrant.",
+                "step_5": "Stir in black beans, corn, and tomato sauce. Cook for 5 minutes, allowing flavors to meld.",
+                "step_6": "In a greased 9x13-inch baking dish, spread half of the boiled sweet potatoes.",
+                "step_7": "Pour half of the black bean and corn mixture over the sweet potatoes.",
+                "step_8": "Repeat the layers with the remaining sweet potatoes and black bean mixture.",
+                "step_9": "Sprinkle shredded cheddar cheese evenly over the top of the casserole.",
+                "step_10": "Cover with aluminum foil and bake for 20 minutes.",
+                "step_11": "Remove the foil and bake uncovered for an additional 10 minutes, or until the cheese is melted and bubbly.",
+                "step_12": "Garnish with sliced green onions and chopped cilantro before serving."
+            }
+        }
+    },
+    {
+        "model": "api.casserole",
+        "pk": 10,
+        "fields": {
+            "name": "buffalo-chicken-casserole",
+            "ingredients": {
+                "chicken_breasts": "2 cups, cooked and shredded",
+                "egg_noodles": "2 cups, cooked",
+                "cream_of_roast_beef_soup": "1 can (10.5 oz)",
+                "buffalo_sauce": "1/2 cup",
+                "ranch_dressing": "1/2 cup",
+                "blue_cheese_crumbles": "1 cup",
+                "cheddar_cheese": "1 cup, shredded",
+                "celery_sticks": "2, diced",
+                "green_onions": "2 stalks, sliced",
+                "salt": "1/2 tsp",
+                "black_pepper": "1/4 tsp"
+            },
+            "instructions": {
+                "step_1": "Preheat oven to 350°F (175°C).",
+                "step_2": "In a large bowl, combine shredded chicken, cooked egg noodles, cream of roast beef soup, buffalo sauce, ranch dressing, diced celery, salt, and black pepper. Mix well.",
+                "step_3": "Transfer the mixture to a greased 9x13-inch baking dish.",
+                "step_4": "Sprinkle shredded cheddar cheese and blue cheese crumbles evenly over the top.",
+                "step_5": "Bake for 25-30 minutes, or until the cheese is melted and the casserole is heated through.",
+                "step_6": "Garnish with sliced green onions before serving."
+            }
+        }
+    },
+    {
+        "model": "api.casserole",
+        "pk": 11,
+        "fields": {
+            "name": "butternut-squash-and-sage-casserole",
+            "ingredients": {
+                "butternut_squash": "5 cups, peeled and cubed",
+                "quinoa": "1 cup, rinsed",
+                "vegetable_broth": "2 cups",
+                "sage_leaves": "10, fresh",
+                "onion": "1 large, diced",
+                "garlic_cloves": "3, minced",
+                "olive_oil": "2 tbsp",
+                "salt": "1 tsp",
+                "black_pepper": "0.5 tsp",
+                "parmesan_cheese": "1 cup, grated",
+                "panko_breadcrumbs": "1/2 cup",
+                "butter": "2 tbsp, melted"
+            },
+            "instructions": {
+                "step_1": "Preheat oven to 375°F (190°C).",
+                "step_2": "In a large skillet, heat olive oil over medium heat. Add diced onion and minced garlic, sauté until translucent.",
+                "step_3": "Add cubed butternut squash to the skillet. Cook for 5 minutes, stirring occasionally.",
+                "step_4": "Stir in quinoa, vegetable broth, fresh sage leaves, salt, and black pepper. Bring to a boil.",
+                "step_5": "Reduce heat to low, cover, and simmer for 15 minutes, or until quinoa and squash are tender.",
+                "step_6": "Remove the skillet from heat and discard the sage leaves.",
+                "step_7": "Transfer the mixture to a greased 9x13-inch baking dish.",
+                "step_8": "Sprinkle grated parmesan cheese evenly over the top.",
+                "step_9": "In a small bowl, mix panko breadcrumbs with melted butter. Sprinkle the breadcrumb mixture over the parmesan cheese.",
+                "step_10": "Bake for 25-30 minutes, or until the top is golden brown and crispy.",
+                "step_11": "Allow the casserole to cool for 5 minutes before serving."
+            }
+        }
+    },
+    {
+        "model": "api.casserole",
+        "pk": 12,
+        "fields": {
+            "name": "spinach-and-artichoke-casserole",
+            "ingredients": {
+                "frozen_spinach": "10 oz, thawed and drained",
+                "canned_artichoke_hearts": "14 oz, drained and chopped",
+                "cream_cheese": "8 oz, softened",
+                "sour_cream": "1/2 cup",
+                "mayonnaise": "1/4 cup",
+                "garlic_cloves": "2, minced",
+                "parmesan_cheese": "1/2 cup, grated",
+                "mozzarella_cheese": "1 cup, shredded",
+                "salt": "1/2 tsp",
+                "black_pepper": "1/4 tsp",
+                "red_pepper_flakes": "1/4 tsp (optional)",
+                "bread_crumbs": "1/2 cup",
+                "butter": "2 tbsp, melted"
+            },
+            "instructions": {
+                "step_1": "Preheat oven to 350°F (175°C).",
+                "step_2": "In a large mixing bowl, combine softened cream cheese, sour cream, mayonnaise, and minced garlic. Mix until smooth.",
+                "step_3": "Stir in thawed spinach and chopped artichoke hearts. Mix until well combined.",
+                "step_4": "Add grated parmesan cheese, shredded mozzarella cheese, salt, black pepper, and red pepper flakes if using. Stir to incorporate.",
+                "step_5": "Transfer the mixture to a greased 9x9-inch baking dish.",
+                "step_6": "In a small bowl, mix bread crumbs with melted butter. Sprinkle the breadcrumb mixture evenly over the top of the casserole.",
+                "step_7": "Bake for 25-30 minutes, or until the top is golden brown and the casserole is bubbly.",
+                "step_8": "Allow to cool for 5 minutes before serving."
+            }
+        }
+    }
+]
