@@ -16,7 +16,7 @@ All example API calls are given in cURL, but can be performed with the HTTP clie
 
 ## Running the Application
 **To run the application locally:**
-1. Ensure that docker is installed in your environment and running. 
+1. Ensure that Docker Desktop is installed on your environment and running. For further information, see [Docker docs](https://docs.docker.com/desktop/).
 2. From the command line, navigate to the project root directory.
 3. Run the following command to build the image: `docker build -t casseroleapi .`
 4. Run the following command to run the container: `docker run -p 8000:8000 casseroleapi`
