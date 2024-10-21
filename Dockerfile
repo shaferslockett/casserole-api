@@ -26,6 +26,9 @@ WORKDIR /app/casseroleapi
 # Run database migrations
 RUN python manage.py migrate
 
+# Load fixture
+RUN python manage.py loaddata initial_casseroles.json
+
 # Command to run the app
 
 CMD ["gunicorn", "casseroleapi.wsgi:application", "--bind", "0.0.0.0:8000", "--workers", "1"]
